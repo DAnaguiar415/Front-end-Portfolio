@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daniel Aguiar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div id="fundo">
+
+            <div id="div1">
+                <h2>/*Hello World*/</h2>
+                <h1>{“Hi, I'm Daniel “}</h1>
+            </div>
+
+            <div id="div2">
+                <div>
+                    <a href="#about_me">About</a>
+                    <a href="#section_portifolio">Portfolio</a>
+                    <a href="#Section_contact">Contact</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="about_me">
+
+        <div id="div_about">
+            <H1> &lt;About_me&gt; </H1>
+            <h2> {“Ola eu sou Daniel, tenho 17 anos. Atualmente estou estudando programação, Banco de dados e Html”} </h2>
+            <h3> {“Cursando 2° ano do Ensino meidio do Cotemig”} </h3>
+
+            <div id="button_ab"> <a href=""><p>Saiba mais</p></a> </div>
+
+        </div>
+
+        <div id="div_knowledge" >
+            <H1> &lt;knowledge&gt; </H1>
+             <div> <h2>{Sql}</h2> <img src="img/Sql.png"></div>
+             <div> <h2>{C#}</h2> <img src="img/C.png"> </div>
+             <div> <h2>{Html_&_Css}</h2> <div id="htmlcss"><img src="img/html.png"> <img src="img/css.png"></div> </div>
+             <div> <h2>{JavaScript}</h2> <img src="img/java.png"> </div>
+        </div>
+
+        
+    </section>
+
+    <div class="linha"> <div></div> </div>
+
+    <section id="section_portifolio">
+        <div id="Portfolio">
+            <div id="div_pf" class="pf_class">
+            <h2>&lt;Portfolio&gt;</h2>
+
+              <button id="pf_butt"><p>Projetos</p></button>
+
+            </div>
+
+            <div class="Portif_linha" class="pf_class"></div>
+
+            <div id="port_rt" class="Dstv" class="pf_class">
+            
+                <div id="titulo"> <h1>&lt;Sites&gt;</h1></div>
+                <div id="prt-1" class="projeto"> <img src="img/Site1.png"> <a href="https://colegiocotemig.netlify.app/"> Cotemig</a></div>
+                <div id="prt-2" class="projeto"> <img src="img/Site2.png"> <a href="https://danielaguiar2a1photosen.netlify.app/"> Photosen</a></div>
+                <div id="prt-3" class="projeto"> <img src="img/Site3.png"> <a href="https://danielaguiar-chimper.netlify.app">Chimper</a></div>
+                <div id="prt-4" class="projeto"> <img src="img/Site4.png"> <a href="https://pixelsstore-danielaguiar-2a-12.netlify.app/">Pixels Store</a></div>
+             
+            </div>
+
+            <div class="Portif_linha" class="pf_class"></div>
+
+        </div>
+    </section>
+
+    <div class="linha"> <div></div> </div>
+
+    <section id="Section_contact">
+
+        <div>
+            <h1>&lt;Contact&gt;</h1>
+
+            <div>
+                <div id="mensagem">
+                    <div id="nome"><p>Name</p> <div><h2>&lt;</h2>  <input type="text" id="inp_nome" oninput="masc_name()">  <h2>&gt;</h2> </div></div>
+                    <div id="email"> <p>Email</p> <div><h2>&lt;</h2>  <input type="email">  <h2>&gt;</h2> </div></div>
+                    <div id="telefone"> <p>Telefone</p> <div><h2>&lt;</h2>  <input id="tel" type="tel" oninput="mascara_telefone()">  <h2>&gt;</h2> </div></div>
+                    <div id="Texto"> <p>Mensage.Text =</p> <div><h2>{&quot;</h2>  <textarea name="mensagem" cols="30" rows="5"></textarea>  <h2 id="sinal">&quot;}</h2> </div></div>
+                    <div id="butão"> <div><h1>Send Email</h1></div> </div>
+
+                </div>
+
+                <div id="info">
+                    <h1>&lt;Forms of Contact&gt;</h1>
+
+                    <h2>My_Email</h2>
+                    <div> <a href="">aguiar.daniel1109@gmail.com</a></div>
+
+                    <h2>Phone</h2>
+                    <div> <a href="tel:+55 (31) 98115-7111">+55 (31) 98115-7111</a></div>
+                
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        
+        <div>
+            <h1>Copyright © 2023 Web Developer Portfolio</h1>
+        </div>
+
+        <div>
+            <a href="#fundo">Home</a>
+            <a href="#about_me">About</a>
+            <a href="#section_portifolio">Portfolio</a>
+            <a href="#Section_contact">Contact</a>
+        </div> 
+
+        <div id="md" onclick="myFunction()">
+        </div>
+
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
